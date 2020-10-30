@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>My Interests</title>
+		<style>
+			*{
+				box-sizing:border-box;
+			}
+			body{
+				font-family:arial, helvetica;
+				background-color:#FFFF66;
+				padding:0px;
+				margin:0px;
+			}
+			header{
+				background:linear-gradient(#BBFF66, #559900);
+				background:-moz-linear-gradient(#BBFF66, #559900);
+				background:-webkit-linear-gradient(#BBFF66, #559900);
+				background:-ms-linear-gradient(#BBFF66, #559900);
+				padding: 15px;
+				font-size:100%;
+			}
+			h1{
+				color: #FFFFFF;
+				text-transform: uppercase;
+				text-align: center;
+				font-size:150%;
+			}
+			nav a{
+				display: inline-block;
+				width: 16%;
+				padding: 5px;
+				margin: 0% 2%;
+				border-radius: 5px;
+				text-decoration: none;
+				background-color: rgba(200,200,200,0.5);
+				color: #000000;
+				font-size:85%;
+				text-align: center;
+			}
+			nav a:hover{
+				background-color: rgb(255,255,255);
+			}
+			nav a.active{
+				background-color: rgba(255,255,255,1);
+				color: rgb(0,0,255);
+			}
+			img{
+				width:3em;
+				float:right;
+				border-radius:50%;
+			}
+			span{
+				text-transform:capitalize;
+				color:#66FFFF;
+				font-size:120%;
+			}
+			h2{
+				font-size:1.25em;
+			}
+			.chicken{
+				border:1px solid #000000;
+				margin:12px;
+				background-color:#888888;
+				position:relative;
+				padding:15px;
+			}
+			.beef{
+				border:1px solid #000000;
+				margin:12px;
+				background-color:#888888;
+				position:relative;
+				padding:15px;
+			}
+			.sushi{
+				border:1px solid #000000;
+				margin:12px;
+				background-color:#888888;
+				position:relative;
+				padding:15px;
+			}
+			.chicken h2{
+				background-color:#FF66CD;
+				border:1px solid #000000;
+				display:block;
+				width:30%;
+				text-align:center;
+				position:absolute;
+				top:-17px;
+				right:0px;
+			}
+			.beef h2{
+				background-color:#3334ff;
+				border:1px solid #000000;
+				display:block;
+				width:30%;
+				text-align:center;
+				position:absolute;
+				top:-17px;
+				right:0px;
+			}
+			.sushi h2{
+				background-color:#24ff45;
+				border:1px solid #000000;
+				display:block;
+				width:50%;
+				text-align:center;
+				position:absolute;
+				top:-17px;
+				right:0px;
+			}
+			body>h1{
+				color:#FF6666;
+				text-shadow: 1px 0px 0px #89922e;
+			}
+			@media(min-width:992px){
+				.chicken{
+					width:30%;
+					float:left;
+				}
+				.beef{
+					width:30%;
+					float:left;
+				}
+				.sushi{
+					width:30%;
+					float:left;
+				}
+			}
+			@media(min-width:768px) and (max-width:991px){
+				.chicken{
+					width:45%;
+					float:left;
+				}
+				.beef{
+					width:45%;
+					float:left;
+				}
+				.sushi{
+					clear:both;
+					width:93%;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>ADEMIJUBE OLALEKAN RICHARD<img src="passport.jpg" alt="My Photo"><br><span>Web Designer</span></h1>
+			<nav>
+				<a href="index.html">Home</a>
+				<a href="index2.html">Best Foods</a>
+				<a href="index3.html" class ="active">Interests</a>
+				<a href="index4.html">Projects</a>
+			</nav>
+		</header>
+			<h1>Short note on my interests</h1>
+		<section>
+			<div class="chicken"><h2>Music</h2>
+			<p>Music is an art and a cultural activity, whose medium is sound. General definitions of music include common elements such as pitch (which governs melody and harmony ), rhythm (and its associated concepts tempo , meter , and articulation), dynamics (loudness and softness), and the sonic qualities of timbre and texture (which are sometimes termed the "color" of a musical sound). Different styles or types of music may emphasize, de-emphasize or omit some of these elements.</p></div>
+		</section>
+		<section>
+			<div class="beef"><h2>Coding</h2>
+			<p>Coding is basically the computer language used to develop apps, websites, and software. There are dozens of coding languages. A few languages are all-purpose (or multipurpose), but most serve a specific function. CSS, for example, primarily functions to make things look pretty. JavaScript, a relatively old language, exists to make web pages more functional. There are specialized languages that are great if you need something super specific, but all you really need to get started are a few common ones.</p></div>
+		</section>
+		<section>
+			<div class="sushi"><h2>Graphic Design</h2>
+			<p>Graphic design is the process of visual communication through the use of typography, photography, iconography and illustration . The field is considered a subset of visual communication and communication design, but sometimes the term "graphic design" is used synonymously. Graphic designers create and combine symbols, images and text to form visual representations of ideas and messages.</p></div>
+		</section>
+	</body>
+</html>

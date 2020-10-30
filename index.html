@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>My Portfolio</title>
+		<style>
+			body{
+				font-family:arial, helvetica;
+				background-color:#FFFF66;
+				padding:0px;
+				margin:0px;
+			}
+			header{
+			background:linear-gradient(#BBFF66, #559900);
+				background:-moz-linear-gradient(#BBFF66, #559900);
+			background:-webkit-linear-gradient(#BBFF66, #559900);
+				background:-ms-linear-gradient(#BBFF66, #559900);
+			  padding: 15px;
+			  font-size:100%;
+			}
+			h1{
+			  color: #FFFFFF;
+			  text-transform: uppercase;
+			  text-align: center;
+			  font-size:150%;
+			}
+			nav a{
+			  display: inline-block;
+			  width: 16%;
+			  padding: 5px;
+			  margin: 0% 2%;
+			  border-radius: 5px;
+			  text-decoration: none;
+			  background-color: rgba(200,200,200,0.5);
+			  color: #000000;
+			  font-size:85%;
+			  text-align: center;
+			}
+			nav a:hover{
+			  background-color: rgb(255,255,255);
+			}
+			nav a.active{
+			  background-color: rgba(255,255,255,1);
+			  color: rgb(0,0,255);
+			}
+			h2{
+			  color: #2020FF;
+			  text-transform: uppercase;
+			}
+			#container{
+				min-height:100vh;
+				margin-bottom:-45px;
+			}
+			#container:after{
+				content:"";
+				display:block;
+				height:45px;
+			}
+			footer{
+				background-color:#33FF00;
+				height:45px;
+				text-align:center;
+			}
+			img{
+				width:3em;
+				float:right;
+				border-radius:50%;
+			}
+			span{
+				text-transform:capitalize;
+				color:#66FFFF;
+				font-size:120%;
+			}
+			h2{
+				border:1px solid #000000;
+				background-color:#FF9966;
+			}
+			.fixed{
+				position:relative;
+				bottom:5%
+			}
+			@media(min-width:992px){
+				section{
+					font-size:120%;
+				}
+				section div{
+					margin:15px;
+				}
+				.about{
+					width:30%;
+					float:left;
+				}
+				.education{
+					width:30%;
+					float:left;
+				}
+				.experience{
+					width:30%;
+					float:left;
+				}
+				.info{
+					clear:both;
+				}
+			}
+			@media(min-width:768px) and (max-width:991px){
+				.education{
+					width:45%;
+					float:left;
+				}
+				.experience{
+					width:45%;
+					float:right;
+				}
+				.info{
+					clear:both;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<script>
+			alert("Hello Friend!! Welcome to my webpage")
+			function displayDate(){
+				document.getElementById('Javascript2').innerHTML = Date()
+			}
+		</script>
+		<div id="container">
+		<header>
+			<h1>ADEMIJUBE OLALEKAN RICHARD<img src="passport.jpg" alt="My Photo"><br><span>Web Designer</span></h1>
+			<nav>
+				<a href="index.html" class = "active">Home</a>
+				<a href="index2.html">Best Foods</a>
+				<a href="index3.html">Interests</a>
+				<a href="index4.html">Projects</a>
+			</nav>
+		</header>
+		<section>
+			<div class="about"><h2>About Me</h2>
+					My name is Ademijube Olalekan Richard. I am a Nigerian. I currently study in the Federal University of Technology, Akure. I am a student of Computer Science Department and I love coding.</div>
+			<div class="education"><h2>Education</h2>
+					2011-2017<br>Wify Comprehensive College<br>College Institution</div>
+			<div class="experience"><h2>Experience</h2>
+					2014<br>Graphic Design<br>Vivid Star</div>
+		</section>
+		</div>
+			<p></p>
+			<div class="fixed"><button type="button" onclick="displayDate()">Show Date</button>
+			<p id="Javascript2"></p></div>
+		<footer>
+			<div class="info"><small>Telephone no.:+234 812 936 89<br>Email Address:<a href="mailto:kingrichardademijube@gmail.com">kingrichardademijube@gmail</a></small></div>
+		</footer>
+	</body>
+</html>

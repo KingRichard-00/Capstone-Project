@@ -1,0 +1,121 @@
+<!Doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>My Projects</title>
+		<style>
+			body{
+				font-family:arial, helvetica;
+				background-color:#FFFF66;
+				padding:0px;
+				margin:0px;
+			}
+			header{
+				background:linear-gradient(#BBFF66, #559900);
+				background:-moz-linear-gradient(#BBFF66, #559900);
+				background:-webkit-linear-gradient(#BBFF66, #559900);
+				background:-ms-linear-gradient(#BBFF66, #559900);
+				padding: 15px;
+				font-size:100%;
+			}
+			h1{
+				color: #FFFFFF;
+				text-transform: uppercase;
+				text-align: center;
+				font-size:150%;
+			}
+			nav a{
+				display: inline-block;
+				width: 16%;
+				padding: 5px;
+				margin: 0% 2%;
+				border-radius: 5px;
+				text-decoration: none;
+				background-color: rgba(200,200,200,0.5);
+				color: #000000;
+				font-size:85%;
+				text-align: center;
+			}
+			nav a:hover{
+				background-color: rgb(255,255,255);
+			}
+			nav a.active{
+				background-color: rgba(255,255,255,1);
+				color: rgb(0,0,255);
+			}
+			.pics{
+				width:3em;
+				float:right;
+				border-radius:50%;
+			}
+			section img{border:2px solid #000000;
+				width:80%;
+			}
+			span{
+				text-transform:capitalize;
+				color:#66FFFF;
+				font-size:120%;
+			}
+			section>h2{
+				color:#FF6666;
+				text-shadow: 1px 0px 0px #89922e;
+				font-variant:small-caps;
+				text-align:center;
+				font-size:180%;
+			}
+			@media(min-width:992px){
+				section img{
+					width:22%;
+					height:200px;
+					margin:10px;
+				}
+				.first{
+					float:left;
+				}
+				.second{
+					float:left;
+				}.third{
+					float:left;
+				}.fourth{
+					float:left;
+				}
+			}
+			@media(min-width:768px) and (max-width:991px){
+				section img{
+					width:45%;
+					height:200px;
+					margin:15px;;
+				}
+				.first{
+					float:left;
+				}
+				.second{
+					float:left;
+				}.third{
+					float:left;
+				}.fourth{
+					float:left;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>ADEMIJUBE OLALEKAN RICHARD<img src="passport.jpg" class="pics" alt="My Photo"><br><span>Web Designer</span></h1>
+			<nav>
+				<a href="index.html">Home</a>
+				<a href="index2.html">Best Foods</a>
+				<a href="index3.html">Interests</a>
+				<a href="index4.html" class="active">Projects</a>
+			</nav>
+		</header>
+		<section class="left">
+			<h2>My Projects</h2>
+			<figure><figcaption>Project One:Moodboard Design</figcaption><img class="first" src="moodboard.jpg" alt="moodboard design"/></figure>
+			<figure><figcaption>Project Two:Sign up Page Design</figcaption><img class="second" src="uixdesign.png" alt="uix Design"/></figure>
+			<figure><figcaption>Project Three:Graphic Design</figcaption><img class="third" src="image.jpg" alt="tiger in water"/></figure>
+			<figure><figcaption>Project Four:Adobe Photoshop</figcaption><img class="fourth" src="images.jpeg.jpg" alt="hamburger"/></figure>
+		</section>
+	</body>
+</html>
